@@ -4,12 +4,13 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodmon --exec babel-node app.js --ignore public/",
+    "start": "nodemon --exec babel-node app.js --ignore /public/",
     "dev": "webpack -wd"
   },
   "author": "Harshit Pareek",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^2.5.7",
     "express": "^4.15.3",
     "mongodb": "^2.2.30",
     "react": "^15.6.1",
